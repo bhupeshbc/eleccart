@@ -74,7 +74,7 @@ const responsive = {
 };
 
 const Component = styled(Box)`
-    margin-top: 10px;
+    margin-top: 15px;
     background: #FFFFFF;
 `;
 

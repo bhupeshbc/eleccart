@@ -249,7 +249,7 @@ const ShippingPage = ({ handleNext, profile }) => {
                         type='number'
                         value={pinCode}
                         error={pinCodeError}
-                        helperText={pinCodeError && 'Pin Code should be a 6-digit number'}
+                        helperText={pinCodeError && 'Pin Code should be a 5-digit number'}
                         onChange={(event) => setPinCode(event.target.value)}
                         required
                         InputLabelProps={{
@@ -341,7 +341,7 @@ const ShippingPage = ({ handleNext, profile }) => {
                   helperText={errors.city}
                 />
               </Grid>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={5}>
                 <TextField
                   required
                   id="pinCode"

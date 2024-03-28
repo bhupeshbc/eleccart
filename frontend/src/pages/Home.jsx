@@ -9,8 +9,8 @@ import { NewtonsCradle } from '@uiball/loaders';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-  const adURL =
-    'https://rukminim1.flixcart.com/flap/464/708/image/1f03e99f6dc9f7a6.jpg?q=70';
+  // const adURL =
+  //   'https://icms-image.slatic.net/images/ims-web/0d216dd2-08fd-450a-bf84-0a60fbdf3459.jpg';
 
   const dispatch = useDispatch();
 
@@ -77,9 +77,9 @@ const Home = () => {
                   <Slide products={productData} title="Top Selection" />
                 </LeftComponent>
 
-                <RightComponent>
+                {/* <RightComponent>
                   <img src={adURL} alt="" style={{ width: 217 }} />
-                </RightComponent>
+                </RightComponent> */}
               </Component>
 
               <Slide products={productData} title="Deals of the Day" />
@@ -120,14 +120,15 @@ const LeftComponent = styled(Box)(({ theme }) => ({
   },
 }));
 
-const RightComponent = styled(Box)(({ theme }) => ({
-  marginTop: 10,
-  background: '#FFFFFF',
-  width: '17%',
-  marginLeft: 10,
-  padding: 5,
-  textAlign: 'center',
-  [theme.breakpoints.down('md')]: {
-    display: 'none',
-  },
-}));
+// const RightComponent = styled(Box)(({ theme }) => ({
+//   marginTop: 10,
+//   background: '#FFFFFF',
+//   width: '17%',
+//   marginLeft: 10,
+//   padding: 5,
+//   textAlign: 'center',
+//   [theme.breakpoints.down('md')]: {
+//     display: 'none',
+//   },
+// }));
+
